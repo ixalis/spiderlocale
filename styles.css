@@ -1,0 +1,29 @@
+body {
+	background-color: #231540;
+	background-image: url("bg1.png");
+	color: #0A2231;
+}
+
+h1 {
+	color: #0A2231;
+	}
+
+.heading {
+	margin: auto;
+}
+
+.box-padded {
+	border-style: solid;
+	border-radius:25px;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+}
+
+.wrapper {
+	width: 52em;
+	margin: auto;
+	background-color:#8289DC;
+	border-radius:25px;
+	padding: 0.5em 1em;
+	min-height: 97vh;
+}
