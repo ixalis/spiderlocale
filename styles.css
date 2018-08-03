@@ -1,29 +1,53 @@
 body {
-	background-color: #231540;
-	background-image: url("bg1.png");
-	color: #0A2231;
+	background-color:#200836;
+	color: #EBECEF;
+	font-family: Roboto, sans-serif;
+	line-height:1.36;
 }
 
-h1 {
-	color: #0A2231;
-	}
+a {
+	color:#000000;
+}
 
+hr {
+	color:#EBECEF;
+}
+
+
+h2 {
+	text-decoration:underline;
+}
+
+h4 {
+	font-style:italic;
+}
 .heading {
 	margin: auto;
 }
 
 .box-padded {
+	background-color: #EBECEF;
+	color:#000000;
 	border-style: solid;
 	border-radius:25px;
+	border-color:#200836;
 	padding: 0.5em 1em;
 	margin: 0.5em;
 }
 
 .wrapper {
-	width: 52em;
+	width: 63em;
 	margin: auto;
-	background-color:#8289DC;
 	border-radius:25px;
 	padding: 0.5em 1em;
 	min-height: 97vh;
 }
+.wrapper2 {
+}
+
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        /* Set your content font stack here: */
+        font-family: Roboto, sans-serif;
+    }
+
