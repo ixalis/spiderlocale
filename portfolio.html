@@ -8,23 +8,33 @@
 	<link rel="cannonical" href="https://ishagani.com">
 	<meta charset="utf-8">
 	<meta name="description" content="ixa's site">
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
 </head>
 <body>
 
 <div class="wrapper">
+<div class="pure-g">
+<div class="pure-u-1">	
 <div class="navbar">
 	<div class="linklist">
 	<a href="index.html">HOME</a>
 	<a href="portfolio.html">PORTFOLIO</a>
 	<a href="about.html">ABOUT</a>
 	</div>
+
 <br>
-<img src="hr.png" width="630">
+<img src="hr.png" id="hr">
 </div>
+</div>
+	<div class="pure-u-1">
 	<h1>Portfolio</h1>
 	<h4><a href="resume.pdf">Resume[pdf]</a></h4>
-	<div class="pure-g">
-		
+	</div>
 		<div class="pure-u-4-5">
 		<div class="box-padded">
 			<p><b><code>MAFIAPP</code></b></p>
@@ -36,7 +46,7 @@
 		<div class="pure-u-1-5">
 		<div class="link-box-padded">
 			<ul>
-				<li><a href="http://ixa.scripts.mit.edu/mafiapp">Website for LAM</a></li>
+				<li><a href="http://ixa.scripts.mit.edu/mafiapp">LAM@MIT</a></li>
 				<li><a href="http://github.com/ixalis/mafiapp">Github</a></li>
 			</ul>
 		</div>

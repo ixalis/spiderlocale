@@ -15,13 +15,24 @@ body {
 	text-align:center;
 }
 
+#hr {
+	width:20em;
+}
+
+#slugcat {
+	height:100%;
+}
+
 .linklist {
-	border-;
 	display:inline-block;
-	width:630px;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
+@media screen and (min-width: 48em) {
+	.linklist { width:630px;}
+}
+
 .link-box-padded ul {
 	list-style:none;
 }
