@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /pixelart/
+
+User-agent: *
+Disallow: styles.css
+
+User-agent: *
+Disallow: hr.png
+
+
+
