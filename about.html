@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isha Gani (ixa)</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="cannonical" href="https://ishagani.com">
+	<meta charset="utf-8">
+	<meta name="description" content="ixa's site">
+	<script>
+		function downslug() {
+			document.getElementById('games').innerHTML = "<img src='slug.png'>";
+			setTimeout(upslug, 500);
+		}
+		function upslug() {
+			document.getElementById('games').innerHTML = "<img src='slug2.png'>";
+			setTimeout(downslug, 500);
+		}
+		window.onload = upslug;
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+<div class="navbar">
+	<div class="linklist">
+	<a href="index.html">HOME</a>
+	<a href="portfolio.html">PORTFOLIO</a>
+	<a href="about.html">ABOUT</a>
+	</div>
+<br>
+<img src="hr.png" width="630">
+
+</div>	
+
+<h1>About Me</h1>
+
+<div class="pure-g">
+		
+		<div class="pure-u-5-6">
+		<div class="box-padded">
+		<p>My name is Isha, but I also go by ixa. I'm a computer science major at MIT (Course 6-3, '21). </p>
+		<p>I'm primairly interested in cryptography, cybersecurity, algorithms, and game theory.</p>
+		</div>
+		</div>
+
+		<div class="pure-u-1-6">
+			<div id="latop"><img src='laptop.png'></div>
+		</div>
+
+		<div class="pure-u-1-6">
+			<div id="games"><img src='slug.png'></div>
+		</div>
+		<div class="pure-u-5-6">
+		<div class="box-padded">
+		<p>I enjoy playing/creating games; I can often be found playing one of chess, go, hanabi, Hollow Knight, or one of countless other games I've discovered along the way. I've also written a Live Action Bitcoin(LAB) scenario for Live Action Mafia.</p>
+		</div>
+		</div>
+		
+		<div class="pure-u-5-6">
+		<div class="box-padded">
+		<p>I also spin fire! I usually spin with poi, but I'm also trying to learn contact staff.</p>
+		</div>
+		</div>
+		<div class="pure-u-1-6">
+			<div id="firepoi"><img src='firepoi.png'></div>
+		</div>
+
+
+		<div class="pure-u-1-6">
+			<div id="stuffedanimals"><img src="mothman.png"></div>
+		</div>
+		<div class="pure-u-5-6">
+		<div class="box-padded">
+		<p> I enjoy collecting stuffed animals (and fluffy things in general). I have quite an extensive collection, from bees to bears to mothmen.</p>
+		</div>
+		</div>
+		
+		
+	</div>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
